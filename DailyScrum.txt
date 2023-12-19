@@ -1,0 +1,155 @@
+12/06/2023:
+
+Shaunpaul
+1. project proposal
+2. github, tutorials, update node/install nvm
+3. N/A
+
+Dominique
+1. proposal discussion
+2. look into vue tutorials, proposal rework
+3. N/A
+
+Miral
+1. Created database diagram for project proposal
+2. Continue to work on Azure
+3. No issues
+
+Pejman
+1. Use Case Diagram of the Proposal
+2. Look into NVM Homework
+	Look into Jira tutorials
+	Look into Vite tutorials
+3. N/A
+
+Dustin
+1. Mockup Diagrams for proposal.
+2. Set up Jira with Lewis. Vue tutorials. Gitlab/Jenkins Tutorials.
+3. N/A
+
+Lewis
+1. Done / not done since last scrum:
+	-Initial JIRA and Vue Tutorials (first scrum)
+2. To do until next Scrum:
+	set up jira, look into CI/Cd jenkins or gitlab, vue tutorial
+3. Need assistance/ figure things out
+	- nuxt implementation?
+
+12/07/2023
+
+Shaunpaul
+1. Vue and Nuxt tutorials
+2. Setup initial nuxt project structure
+
+Dominique
+1. vue tutorials
+2. jira videos, vue tutorial, nuxt
+
+
+Miral
+1. Created MYSQL on Azure
+    Created database tables
+2. Working on blob storage (azure)
+3. Need to read documentation for blob storage
+
+Pejman
+1. Tutorials for Vue and Nuxt
+2. Login and Register
+
+Dustin
+1. Set up Jira Agile Tracking
+2. Jira notifications and integrations to slack, teams and github
+    Watch jira tutorials
+    Setup first sprint
+    Tutorials for Vue and Nuxt
+
+12/11/2023
+
+Shaunpaul
+1. Tutorials, committed initial structure
+2. Setup pages, pinia, and vitest
+3. May switch back to regular vue instead of nuxt
+
+Dominique
+1. Tutorials
+2. Work on pages
+
+Miral
+1. Working on blob methods for upload and download (user profiles, songs, ads)
+2. Tutorials for Vue
+
+Pejman
+1. Registration, Login and Logout pages
+2. Personal profile page
+
+Dustin
+1. Jenkins tutorials
+2. Adding CI/CD initial code, Admin Crud
+
+12/12/2023
+
+Shaunpaul
+1. Nuxt authentication
+2. Attempting to migrate vue authentication into nuxt
+3. Difficulty with nuxt3, being relatively new (lack of documentation from outside sources)
+
+Dominique
+1. Tutorials
+2. Main page
+
+Miral
+1. Still working on blob methods for upload and download (user profiles, songs, ads)
+2. Continue blob implementation
+
+Pejman
+1. Registration, Login and Logout pages
+2. Personal profile page
+
+Dustin
+1. Jenkins, CI/CD tutorials
+2. Admin CRUD
+
+12/16/2023
+
+Shaunpaul
+1. Change from nuxt to vanilla vue (more available documentation and tutorials)
+2. media player component
+
+Dominique
+1. learn vue
+2. work on implementing mockups
+
+Miral
+1. Creating server start up file
+2. Creating all methods (blob and tables)
+
+Pejman
+1. Login and Registration
+2. Tutorials
+
+Dustin
+1. Create dockerize start up files
+2. More in-depth Vue tutorials
+
+12/18/2023
+
+Shaunpaul
+1. testing media player vue library
+2. media player integration into reusable component with state
+
+Dominique
+1. sidebar
+2. content, search bar components
+
+Miral
+1. Tested user, song, review APIs
+2. Testing other APIs (on Postman)
+    Creating Blob APIs (upload and download)
+
+Pejman
+1. Finishing Registration, Login and Logout
+2. Profile page
+
+Dustin
+1. More Jira tutorials. Docker setup.
+2. Get CI/CD actually automated. Start on pages design.
