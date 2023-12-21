@@ -31,7 +31,9 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173", 
-    "http://20.151.236.18:5173"
+    "http://20.151.236.18:5173",
+    "http://10.0.0.4:5173",
+    "http://popify.canadacentral.cloudapp.azure.com:5173"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true 

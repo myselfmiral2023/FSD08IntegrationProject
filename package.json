@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite --host 10.0.0.4 --port 80\" \"cd backend && npm install && node index.js\"",
+    "dev": "concurrently \"vite --host 10.0.0.4\" \"cd backend && npm install && node index.js\"",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test": "jest",
