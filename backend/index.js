@@ -22,10 +22,21 @@ const app = express();
 
 app.use(express.json());
 
-app.use(cors({  // important for front end, as you enter new api call methods, add them to the methods 
-  origin: ["http://localhost:5173"],
-  methods: ["GET", "POST","PUT", "DELETE"], // ad here
-  credentials: true
+// app.use(cors({  // important for front end, as you enter new api call methods, add them to the methods 
+//   origin: ["http://localhost:5173"],
+//   methods: ["GET", "POST","PUT", "DELETE"], // ad here
+//   credentials: true
+// }));
+
+app.use(cors({
+  origin: [
+    "http://localhost:5173", 
+    "http://20.151.236.18:5173",
+    "http://10.0.0.4:5173",
+    "http://popify.canadacentral.cloudapp.azure.com:5173"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true 
 }));
 
 app.use(cookieParser());
