@@ -32,6 +32,7 @@ jobs:
           npm test
 
   deploy:
+    needs: tests
     name: Deploy 
     runs-on: ubuntu-latest
 
